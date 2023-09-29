@@ -2,6 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 const app = express()
 const cors = require('cors')
+require('dotenv').config()
 
 //Middlewares
 app.use(cors())
@@ -14,7 +15,7 @@ app.use(doctorRoute)
 
 
 //Connection
-mongoose.connect("mongodb+srv://agrawalprerit:kaszLOtBiYkdeRGs@cluster0.97n3r9k.mongodb.net/")
+mongoose.connect(process.env.MONGODB_URI)
     .then(
         ()=>{
             app.listen(8000, ()=>{
