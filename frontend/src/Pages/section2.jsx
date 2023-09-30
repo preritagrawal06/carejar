@@ -14,7 +14,7 @@ const Section2 = ()=>{
         const fetchData = async()=>{
             setLoading(true)
             try {
-                const {data} = await axios.get(`http://localhost:8000/api/${specialist}`)
+                const {data} = await axios.get(`https://carejar-backend.onrender.com/api/${specialist}`)
                 if(data){
                     setDoctorData(data)
                     setLoading(false)
