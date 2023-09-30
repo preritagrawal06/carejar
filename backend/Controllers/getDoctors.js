@@ -1,5 +1,7 @@
 const Doctor = require('../Models/doctors')
 
+
+// getting all the doctors matching the required speciality
 const GetDoctors = async (req, res, next)=>{
     const speciality = req.params.speciality
 

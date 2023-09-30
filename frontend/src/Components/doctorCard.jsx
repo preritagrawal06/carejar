@@ -28,7 +28,7 @@ const DoctorCard = ({doctorData})=>{
                 gap={1} 
             >
                 <Box gridColumn="span 2" justifyContent="center" alignItems="center" display="flex">
-                    <img src="placeholder.png" alt="placeholder.png" srcset="" height="150px" width="150px"/>
+                    <img src="placeholder.png" alt="placeholder.png" srcSet="" height="150px" width="150px"/>
                 </Box>
                 <Box gridColumn="span 4">
                     <Stack gap={1}>

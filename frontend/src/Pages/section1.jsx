@@ -1,6 +1,5 @@
 import CustomCard from "../Components/customCard";
 import { Box, Typography } from "@mui/material";
-import { Link } from "react-router-dom";
 
 const Section1 = () => {
     return (
@@ -27,19 +26,19 @@ const Section1 = () => {
                     headImg="dentist.jpg"
                     heading="Dentist"
                     mainContent="Teeth Troubles? Schedule a dental checkup"
-                    specialist="dentist"
+                    specialist="Dentist"
                 />
                 <CustomCard
                     headImg="gynac.jpg"
                     heading="Gynecologist/Obstetrician"
                     mainContent="Explore for women's health, pregnancy and infertility treatments"
-                    specialist="gynac"
+                    specialist="Gynecologist"
                 />
                 <CustomCard
                     headImg="dietician.jpg"
-                    heading="Dietiton/Nutrition"
+                    heading="Dietitian/Nutrition"
                     mainContent="Get guidance on eating right, weight management and sports nutrition"
-                    specialist="dietition"
+                    specialist="Dietitian"
                 />
             </Box>
         </Box>

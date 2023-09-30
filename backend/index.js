@@ -11,7 +11,7 @@ app.use(express.urlencoded({extended: true}))
 
 //Routes
 const doctorRoute = require('./Routes/doctorRoute.routes')
-app.use(doctorRoute)
+app.use('/api', doctorRoute)
 
 
 //Connection
